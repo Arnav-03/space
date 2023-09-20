@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homemain{
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.info-rocket{
+    display: flex;
+    flex-direction: row;
+    height: 11rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: calc(100vh - 100px);
+    width: 40vw;
+    padding-left: 100px;
+    overflow: hidden;
+}
+.rocket{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: calc(100vh - 100px);
+    width: 60vw;
+}
+#p1{
+    height: 150px;
+    margin-top: 100px;
+    
+}
+#p2{
+    height: 75px;
+    margin-top: 50px;
+
+}
+#rocket{
+    height: 450px;
+    margin-left: -150px;
+    margin-top: 20px;
+}
+#c1{
+    margin-top: 50px;
+}
+#c2{
+    margin-top: -245px;
+}
+
+.info span{
+    color: #a7a7a7;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+.title{
+    color: #f3e0e0;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-family: 'Passion One', cursive;
+    font-size: 4rem;
+    text-transform: capitalize;
+    line-height: 60px;
+    margin-top: -190px;
+}
+.desc{
+    color: hsl(252, 100%, 87%);
+    font-weight: 900;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-top: -200px;
+    line-height: 20px;
+}
+
+.button-52 {
+    text-transform: uppercase;
+  font-size: 32px;
+  color: hsl(332, 56%, 74%);
+  letter-spacing: 5px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border-radius: 30px;
+  border: 1px solid hsl(332, 56%, 74%);
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 270px;
+  margin-top: -150px;
+  margin-left: 50px;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.button-52:after {
+  content: "";
+  border-radius: 30px;
+  cursor: pointer;
+
+  background-color: hsl(335, 72%, 46%);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: -10px;
+  left: -12px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+
+}
+

@@ -1,0 +1,136 @@
+
+
+.loginpage{
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.login-info{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2.3rem;
+    color: hsl(327, 74%, 92%);
+    padding:  0px 50px;
+    padding-top: 60px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: calc(100vh - 100px);
+    width: 70vw;
+    padding-left: 100px;
+    overflow: hidden;
+}
+.free{
+    color: hsl(327, 95%, 7%);
+    text-transform: uppercase;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-align: center;
+    width: 230px;
+    border: 2px dotted;
+    border-radius: 20px;
+    background-color: hsl(328, 93%, 57%);
+    font-weight: 900;
+}
+
+form{
+    height: 500px;
+    width: 600px;
+    background-color: hsl(252, 100%, 87%);
+    background-color: hsl(315, 78%, 69%);
+    background: url('space2.jpg') center/cover; /* Set background image, center it, and make it cover */
+    border-radius: 40px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  label{
+    color: #ffffff;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+
+  }
+  #name,#email,#phone {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-size: 1rem;
+    background: transparent;
+    color: #ffffff;
+    width: 350px;
+    
+  }
+
+  
+  #submit-login {
+    background-color: hsl(252, 100%, 2%);
+    opacity: 0.7;
+    color: white;
+    font-weight: 900;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+  }
+  
+  #submit-login:hover {
+    background-color: hsl(315, 78%, 69%);
+  }
+  .login-ticket {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .ticket {
+    display: flex;
+    height: 200px;
+    width: 500px;
+    border: 2px #a78c95 solid;
+    flex-direction: row;
+
+  }
+  .right-ticket{
+    color: #cebbbb;
+    margin-top: 50px;
+
+  }
+  .left-ticket{
+    background-color: #a78c95;
+  }
+  .ticket-img img{
+    height: 200px;
+  }
+  .ticketspan{
+    color: rgb(207, 34, 141);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px 30px;
+    
+  }
+  .ticketinfo{
+    color: #fca4ba;
+    text-transform: uppercase;
+    font-size: 2rem;
+    width: 70vw;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .error-message{
+    color: red;
+  }

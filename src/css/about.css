@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+.container {
+    width: calc(100vw - 100px);
+    color: #FBE4D8;
+    display: flex;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-evenly;
+    margin: 50px;
+
+
+}
+
+.card {
+    border-radius: 90% 10% 89% 11% / 14% 88% 12% 86%;
+    border: 10px solid #FBE4D8;
+    width: 100%;
+    height: 400px;
+    margin: 20px 10px;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    min-width: 400px;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    box-shadow:
+        0.5px 1px 1.4px rgba(214, 19, 156, 0.028),
+        1.1px 2.2px 3.3px rgba(214, 19, 156, 0.041),
+        2px 4px 5.9px rgba(214, 19, 156, 0.051),
+        3.4px 6.6px 9.8px rgba(214, 19, 156, 0.059),
+        5.6px 10.8px 16.1px rgba(214, 19, 156, 0.069),
+        9.7px 19px 28.2px rgba(214, 19, 156, 0.082),
+        21px 41px 61px rgba(214, 19, 156, 0.11);
+
+}
+
+.about-title {
+    margin-top: 20px;
+    color: rgb(192, 99, 176);
+    justify-content: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.about-desc {
+    margin-top: 10px;
+    font-family: 'Bad Script', cursive;
+    line-height: 30px;
+    letter-spacing: 2px;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+
+}
